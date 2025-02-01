@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Browse Pets</title>
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,9 +33,10 @@
     font-style: normal;
     }
     .sora-font {
-        font-family: "ADLaM Display", serif;
-        font-weight: 400;
-        font-style: normal;
+      font-family: "Sora", serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
     }
 
     </style>
@@ -99,6 +100,7 @@
                 </div>
                 
             </div> 
+            <hr class="border-black lg:hidden">
         </nav>
         <div class="container mx-auto space-y-4 bg-[url('./c1-assets/cat-big.png')] bg-no-repeat md:bg-cover bg-contain bg-center min-h-[80vh] my-[100px] p-4">
             <h1 class="text-4xl md:text-5xl pt-10 font-bold adlam-font leading-10 md:leading-[64px] animate-pulse">Pamper Your Pet,<br> Because They Deserve <br> the Bes</h1>
@@ -321,9 +323,40 @@
           </div>
         </div>
       </section>
-      
+      <section class="my-32  bg-[#FFF9F4] ">
+        <div class="container mx-auto py-32 px-4 lg:px-0">
+          <div class="flex flex-col gap-4 justify-center items-center col-span-1">
+            <img src="./c1-assets/logo-header.png" alt="">
+            <h1 class="lg:text-5xl text-2xl font-bold adlam-font">Core Nutritional Principles</h1>
+            <h2 class="text-xl lg:text-4xl font-semibold sora-font">For pet season</h2>
+          </div>
+          <div class="grid lg:grid-cols-4 grid-cols-1 gap-5 text-center mt-20 sora-font">
+            <div class="flex flex-col justify-center items-center bg-[#FFF3CD] p-10 rounded-xl py-16 space-y-4 container">
+              <img src="./c1-assets/weight.png" alt="">
+              <h1 class="text-2xl font-bold">Healthy Weight</h1>
+              <p class="px-5">We provide food, equipment, and we provide pets too.</p>
+            </div>
+            <div class="flex flex-col justify-center items-center bg-[#E2EFD1] p-10 rounded-xl py-16 space-y-4">
+              <img src="./c1-assets/Hairball.png" alt="">
+              <h1 class="text-2xl font-bold">Hairball Management</h1>
+              <p class="px-5">We provide food, equipment, and we provide pets too.</p>
+            </div>
+            <div class="flex flex-col justify-center items-center bg-[#FFE4EF] p-10 rounded-xl py-16 space-y-4">
+              <img src="./c1-assets/limited.png" alt="">
+              <h1 class="text-2xl font-bold">Limited Ingredient</h1>
+              <p class="px-5">We provide food, equipment, and we provide pets too.</p>
+            </div>
+            <div class="flex flex-col justify-center items-center bg-[#E7DFFF] p-10 rounded-xl py-16 space-y-4">
+              <img src="./c1-assets/organic.png" alt="">
+              <h1 class="text-2xl font-bold">Organic Grain</h1>
+              <p class="px-5">We provide food, equipment, and we provide pets too.</p>
+            </div>
+            
+          </div>
+        </div>
+      </section>
     </main>
-    <footer class=" mt-[500px] bg-[#FFDC2680] p-4 lg:p-0">
+    <footer class=" mt-[500px] bg-[#FFDC2680] p-4 lg:p-0 sora-font">
       <section class="relative container mx-auto  ">
         <section class="absolute lg:-top-[450px] -top-[550px] container mx-auto mt-36 lg:flex lg:justify-evenly lg:p-20 bg-[#FFF9F4] px-2 py-10 rounded-xl ">
           <div class="">
